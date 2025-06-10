@@ -8,10 +8,15 @@ Install Node.js version 18 or higher (check by running node -v; you should see v
 
 Download or clone the NotionMail project and change into its folder (cd NotionMail).
 
-Install its dependencies by running npm install.
+Install its dependencies by running 
+
+npm install
 
 In the project root, create a file called .env and add two lines:
+
 APIKEY=<your Notion integration secret>
 DATABASEID=<your Notion database ID>
 
-Start the CLI with node notionmail.js.
+Start the CLI with 
+
+node notionmail.js
